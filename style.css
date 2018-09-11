@@ -40,6 +40,7 @@ button {
 button :hover {
     color: gray;
     cursor: hand;
+    animation: fill 1s forwards;
 }
 
 h2 {
