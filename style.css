@@ -31,24 +31,21 @@ a:hover {
 button {
     margin: 50px;
     border: 35px;
-<<<<<<< HEAD
+    padding: 10x; 
     padding: 10x;
     text-align: center;
     color :black;
-=======
+
     text-align: center;
     color :black;
     opacity: 80%;
->>>>>>> 610220140070066bb204ffd35b5f40082e486ef8
 }
 
 button :hover {
     color: gray;
     cursor: hand;
-<<<<<<< HEAD
     animation: fill 1s forwards;
-=======
->>>>>>> 610220140070066bb204ffd35b5f40082e486ef8
+    animation: fill 1s forwards;
 }
 
 h2 {
