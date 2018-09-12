@@ -1,8 +1,59 @@
-.receips li {
+@charset "UTF-8";
+
+html {
+    background: url(https://thinkmarketingmagazine.com/wp-content/uploads/2015/10/German-e-commerce-giant-Rocket-Internet-acquires-Egypt-online-food-ordering-Otlob.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+title, h1{
+    color: white;
+}
+.recipes li {
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+    display: inline;
+    margin: 15px;
+    border: 15px;
+    color: white;
+}
+a {
+    color: rgb(53, 32, 14);
+    font-family: cursive;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(14, 223, 77);
+}
+
+button {
+    margin: 50px;
+    border: 35px;
+    padding: 10x;
+    text-align: center;
+    color :black;
+}
+
+button :hover {
+    color: gray;
+    cursor: hand;
+    animation: fill 1s forwards;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: 76%;
+    font-size: 35px;
+    color: rgb(12, 105, 12);
+}
+
+h2:hover{
+    color: orange;
+}
+ul li{
     display: block;
-    margin: 5em;
-    border: 30px;
+    margin: auto;
+    
 }
