@@ -31,7 +31,11 @@ a:hover {
 button {
     margin: 50px;
     border: 35px;
+    padding: 10x; 
     padding: 10x;
+    text-align: center;
+    color :black;
+
     text-align: center;
     color :black;
     opacity: 80%;
@@ -40,6 +44,7 @@ button {
 button :hover {
     color: gray;
     cursor: hand;
+    animation: fill 1s forwards;
     animation: fill 1s forwards;
 }
 
