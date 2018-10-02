@@ -1,0 +1,12 @@
+---
+ -hosts: ecs-ansible-0002.novalocal
+  remote_user: linux
+  passwd: admin
+  command: sudo su
+
+  tasks:
+    -name: installing nano
+     yum:
+       action: command: yum install nano
+       version: latest
+       
